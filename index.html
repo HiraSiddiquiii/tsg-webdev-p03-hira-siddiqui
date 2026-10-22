@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DevJournal shares beginner-friendly web development tutorials, coding tips, and practical guides.">
+  <title>DevJournal | Learn, Build, Grow</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo">DevJournal<span>.</span></a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="blog.html" class="nav-cta">Explore Articles <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> THE DEVELOPER'S JOURNAL</p>
+
+          <h1>Good code starts with <span>curiosity.</span></h1>
+
+          <p class="hero-description">
+            Practical tutorials, honest lessons, and fresh ideas to help
+            you grow from a beginner into a confident web developer.
+          </p>
+
+          <div class="hero-actions">
+            <a href="blog.html" class="btn btn-primary">Read the Blog <span>↗</span></a>
+            <a href="#about" class="text-link">Our story <span>↓</span></a>
+          </div>
+
+          <div class="hero-note">
+            <span class="note-line"></span>
+            <p>Learn something today. Build something tomorrow.</p>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Illustration of a code editor">
+          <div class="editor-window">
+            <div class="editor-topbar">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <span>hello-world.html</span>
+              <span class="editor-language">HTML</span>
+            </div>
+
+            <div class="editor-code">
+              <p><span class="line-number">01</span> <span class="code-purple">&lt;main&gt;</span></p>
+              <p><span class="line-number">02</span> &nbsp; <span class="code-blue">&lt;h1&gt;</span></p>
+              <p><span class="line-number">03</span> &nbsp;&nbsp;&nbsp; Hello, developer!</p>
+              <p><span class="line-number">04</span> &nbsp; <span class="code-blue">&lt;/h1&gt;</span></p>
+              <p><span class="line-number">05</span> &nbsp; <span class="code-green">&lt;p&gt;</span></p>
+              <p><span class="line-number">06</span> &nbsp;&nbsp;&nbsp; Keep learning.</p>
+              <p><span class="line-number">07</span> &nbsp; <span class="code-green">&lt;/p&gt;</span></p>
+              <p><span class="line-number">08</span> <span class="code-purple">&lt;/main&gt;</span></p>
+            </div>
+
+            <div class="editor-status">
+              <span>● Ready to build</span>
+              <span>UTF-8 &nbsp; HTML</span>
+            </div>
+          </div>
+
+          <div class="floating-tag tag-top">{"</>"} Learn by doing</div>
+          <div class="floating-tag tag-bottom"><span>✳</span> One step at a time</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-section section-padding" id="about">
+      <div class="container intro-grid">
+        <div>
+          <p class="eyebrow">WHY DEVJOURNAL?</p>
+          <h2>Less confusion.<br><span>More creation.</span></h2>
+        </div>
+
+        <div class="intro-copy">
+          <p>
+            Web development can feel overwhelming when you are starting out.
+            We make the journey easier with simple explanations, useful
+            examples, and ideas you can put into practice.
+          </p>
+          <a href="contact.html" class="text-link">Say hello <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-section section-padding">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">FRESH FROM THE EDITOR</p>
+            <h2>Ideas worth <span>exploring.</span></h2>
+          </div>
+          <a href="blog.html" class="text-link">All articles <span>↗</span></a>
+        </div>
+
+        <div class="featured-grid">
+          <article class="featured-card">
+            <a href="blog.html#html-basics" class="featured-image image-one">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Laptop showing a web development workspace" loading="lazy">
+            </a>
+            <div class="card-meta"><span>HTML & CSS</span><span>5 min read</span></div>
+            <h3><a href="blog.html#html-basics">Your First Website: Where to Begin</a></h3>
+            <p>A friendly introduction to the building blocks of the web.</p>
+          </article>
+
+          <article class="featured-card">
+            <a href="blog.html#responsive-design" class="featured-image image-two">
+              <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80" alt="Code displayed on a computer screen" loading="lazy">
+            </a>
+            <div class="card-meta"><span>CSS TIPS</span><span>4 min read</span></div>
+            <h3><a href="blog.html#responsive-design">Responsive Design Without the Stress</a></h3>
+            <p>Build layouts that look good on phones, tablets, and desktops.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="container newsletter-content">
+        <p class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p>
+        <h2>Stay curious.<br>Keep <span>building.</span></h2>
+        <p>Explore practical guides and take the next step in your developer journey.</p>
+        <a href="blog.html" class="btn btn-light">Explore All Articles <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a href="index.html" class="logo footer-logo">DevJournal<span>.</span></a>
+      <p>Made for curious minds and future builders.</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 DevJournal. All rights reserved.</p>
+      <p>Learn. Build. Grow.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
