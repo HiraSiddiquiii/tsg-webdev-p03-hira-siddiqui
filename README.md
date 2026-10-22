@@ -107,11 +107,11 @@ Screenshots of all three pages on desktop and mobile will be included here.
 
 ## Live Demo
 
-**Live Website:** Add your deployed website URL here.
+**Live Website:**https://tsg-webdev-p03-hira-siddiqui.vercel.app/
 
 ## GitHub Repository
 
-**Repository:** Add your public GitHub repository URL here.
+**Repository:*https://github.com/HiraSiddiquiii/tsg-webdev-p03-hira-siddiqui
 
 ## Image and Font Credits
 
